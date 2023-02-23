@@ -1,5 +1,8 @@
+
+#importing Modules
 import string
 import random
+#Function for Captcha
 def captcha():
     N = 7
     res = ''.join(random.choices(string.ascii_uppercase + string.digits, k=N))
@@ -7,7 +10,7 @@ def captcha():
     cap=res
     print("The generated random string : " + str(res))
     
- 
+#Program for getting username and password 
 i=0
 a='admin'
 b='admin'
